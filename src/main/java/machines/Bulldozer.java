@@ -1,15 +1,13 @@
 package machines;
-
 import core.basesyntax.Machine;
 
 public class Bulldozer extends Machine {
     @Override
     public void doWork() {
-        System.out.println("Bulldozer started it's work.");
+        System.out.println("Bulldozer started its work.");
     }
-
     @Override
     public void stopWork() {
-        System.out.println("Bulldozer stopped it's work.");
+        System.out.println("Bulldozer stopped its work.");
     }
 }
